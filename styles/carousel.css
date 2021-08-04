@@ -1,13 +1,12 @@
-#items-container{  
+section#items-container{  
   width: 100%;
+  pointer-events: auto;
 }
 
 #items-container #items{  
+  width: max-content;  
   display: flex;
-  
-  overflow-x: auto;
-}
-
-.item{
-  flex: none;
+  pointer-events: none;    
+  position: relative;
+  left: 0;  
 }
