@@ -10,3 +10,6 @@ section#items-container{
   position: relative;
   left: 0;  
 }
+#items-container #items .item img{
+  width: 14rem;
+}

@@ -3,7 +3,14 @@ header{
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;  
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+}
+
+header img{
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 100%;
 }
 
 header ul{
@@ -13,12 +20,16 @@ header ul{
 
 header nav ul li{
   margin: 0.2rem 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;    
 }
 
 header nav ul li a {
-  color: var(--white);
+  color: white;
+  transition: 0.3s ease-in;
 }
 
-/* header nav ul li a:hover {
-  
-} */
+header nav ul li a:hover {
+  text-decoration: underline; 
+  text-decoration-color: #2f7971;  
+}
