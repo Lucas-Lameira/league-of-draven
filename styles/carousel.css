@@ -1,0 +1,13 @@
+#items-container{  
+  width: 100%;
+}
+
+#items-container #items{  
+  display: flex;
+  
+  overflow-x: auto;
+}
+
+.item{
+  flex: none;
+}

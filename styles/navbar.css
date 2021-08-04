@@ -1,0 +1,24 @@
+header{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;  
+  padding: 2rem 1rem;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li{
+  margin: 0.2rem 1rem;
+}
+
+header nav ul li a {
+  color: var(--white);
+}
+
+/* header nav ul li a:hover {
+  
+} */

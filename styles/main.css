@@ -1,0 +1,51 @@
+#main-bg-image{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/Draven_20.jpg') no-repeat;
+  height: 70%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main-content{
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+#main-content h3, p {
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+#main-content h3{
+  font-size: 1.4rem;  
+}
+
+#main-content p{  
+  font-size: 0.8rem;
+  /* width: clamp(10rem, 30vw, 5rem); */
+  width: 20rem;
+}
+
+/* Button style */
+#main-content .btn{
+  margin-top: 20px;
+  width: 8rem;
+  height: 70px; 
+  background: linear-gradient(to bottom left, #2f7971, #0a443d);
+  border-radius: 4px;
+  border: none;
+  filter: brightness(80%);
+  transition: 0.3s;
+}
+
+#main-content .btn:hover{ 
+  filter: brightness(120%);
+}
+
+#main-content .btn a{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: var(--white);
+}
