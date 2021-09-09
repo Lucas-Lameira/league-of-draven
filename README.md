@@ -25,7 +25,7 @@ Welcome to the league of draven! UI Web page that provides information about the
  Download or clone the project
 
   ```
-  git clone
+  https://github.com/Lucas-Lameira/league-of-draven.git
   ```
 Open the file **index.html** in the browser
 </p>
